@@ -5,7 +5,7 @@ RUN apk update && apk upgrade && apk add --no-cache curl git
 RUN curl -s https://raw.githubusercontent.com/eficode/wait-for/master/wait-for -o /usr/bin/wait-for
 RUN chmod +x /usr/bin/wait-for
 
-RUN go install github.com/arammkr/pubsubc@0.0.2
+RUN go install github.com/arammkr/pubsubc@0.0.4
 
 ###############################################################################
 
